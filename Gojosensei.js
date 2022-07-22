@@ -3528,23 +3528,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
     case 'donasi': case 'donate': case 'sewabot': case 'sewa': {
-                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c15f725add0381fb69c4b.jpg' }, caption: `*Hi Bro ${m.pushName}*\n*🥹As a donation u can subscribe to my channel ⤵️* 
-
-https://youtube.com/channel/UCI88W5jZ5ZKdnir9ITXjVJA
-
- ```Would mean alot if u did⤴️``` 
-
- *_If u feel generous u can donate to our PayPal 💕_* 
-
-https://paypal.me/supremenabgains
-
-🅿️🅿️
-
- _To be added as a bot owner and get premium features no one else has costs R10_ 
-
- ```🐦Dm for banking details
-Or airtime payment``` 
-Wa.me/27799191911\n` }, { quoted: m })
+                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c15f725add0381fb69c4b.jpg' }, caption: `*Hi Bro ${m.pushName}*\nDonation section is currently down🥲 , I know you are happy but me 🥲💔\n` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
